@@ -23,13 +23,13 @@ use App\Http\Controllers\BartenderController;
 */
 
 Route::get('/test', function () {
-    return 'Laravel routing works!';
+    return 'Laravel routing works!!!!!!';
 });
 //SESSION ROUTES
 //Route::get('/', [SessionController::class, 'checkSession']);//reading data from the URL parameters
 
 //NFC ROUTES
-Route::get('getnfcdata', [NfcController::class, 'getNfcData']);//reading data from the URL parameters
+Route::get('/getnfcdata', [NfcController::class, 'getNfcData']);//reading data from the URL parameters
 
 /* ROUTES FOR CLIENTS */
 Route::get('/client', [ClientController::class, 'index']);
