@@ -22,6 +22,9 @@ use App\Http\Controllers\BartenderController;
 |
 */
 
+Route::get('/test', function () {
+    return 'Laravel routing works!';
+});
 //SESSION ROUTES
 //Route::get('/', [SessionController::class, 'checkSession']);//reading data from the URL parameters
 
