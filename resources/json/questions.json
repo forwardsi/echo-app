@@ -1,0 +1,39 @@
+{
+    "ranking_features": [
+        {
+            "title": "Family",
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Were the staff at {{Hotel name}} friendly, helpful, and attentive to your needs?",
+                    "type": "radio",
+                    "options": ["YES", "NO", "MAYBE"]
+                },
+                {
+                    "id": 2,
+                    "text": "Was your apartment clean, comfortable, and well-maintained?",
+                    "type": "radio",
+                    "options": ["YES", "NO", "MAYBE"]
+                },
+                {
+                    "id": 3,
+                    "text": "Did the amenities and services meet your expectations based on what was advertised?",
+                    "type": "radio",
+                    "options": ["YES", "NO", "MAYBE"]
+                },
+                {
+                    "id": 4,
+                    "text": "Was the location convenient for your plans—close to attractions, dining, and transport?",
+                    "type": "radio",
+                    "options": ["YES", "NO", "MAYBE"]
+                },
+                {
+                    "id": 5,
+                    "text": "Overall, would you recommend {{Hotel name}} to friends or family?",
+                    "type": "radio",
+                    "options": ["YES", "NO", "MAYBE"]
+                }
+            ]
+        }
+    ]
+}

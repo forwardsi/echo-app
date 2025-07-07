@@ -1,0 +1,60 @@
+{
+    "General": [
+      { "id": 1, "text": "Please generate a concise review highlighting the best aspects." },
+      { "id": 2, "text": "Draft a short review focusing on areas of improvement." },
+      { "id": 3, "text": "Craft a neutral-toned summary of the feedback below." },
+      { "id": 4, "text": "How would you relay the feedback below in a user-friendly manner?" },
+      { "id": 5, "text": "Please write a short review reflecting the feedback given." },
+      { "id": 6, "text": "Describe the guest's experience based on the following points." },
+      { "id": 7, "text": "Convert the feedback into a brief narrative for potential guests." },
+      { "id": 8, "text": "Express the feedback in a short review that others might find useful." },
+      { "id": 9, "text": "Share your perspective on the feedback in the form of a review." },
+      { "id": 10, "text": "Turn the feedback into a recommendation or note for future guests." },
+      { "id": 11, "text": "Illustrate the feedback in a succinct review for the community." },
+      { "id": 12, "text": "Articulate the feedback into a brief summary for potential visitors." },
+      { "id": 13, "text": "Convey the feedback as if you're advising a close friend about the place." },
+      { "id": 14, "text": "Based on the feedback, would you suggest this place to others? Why?" },
+      { "id": 15, "text": "Translate the feedback into a few sentences for our audience." },
+      { "id": 16, "text": "If you were to use the feedback to guide other travelers, what would you say?" },
+      { "id": 17, "text": "In light of the feedback, provide a quick snapshot for readers." },
+      { "id": 18, "text": "Present the feedback as a short story for our hotel's journal." },
+      { "id": 19, "text": "Distill the feedback into a quick tip or advice for our audience." },
+      { "id": 20, "text": "Utilizing the feedback, draft a quick peek into the guest's stay." }
+    ],
+    "Serious Tone": [
+      { "id": 21, "text": "Generate a factual review, strictly based on the feedback provided." },
+      { "id": 22, "text": "Craft a direct and straightforward summary of the feedback below." },
+      { "id": 23, "text": "Provide a no-nonsense, concise review that reflects the feedback." },
+      { "id": 24, "text": "Describe, in a serious manner, the guest's experience based on the feedback." },
+      { "id": 25, "text": "Translate the feedback into a formal review for our records." }
+    ],
+    "Friendly/Positive Tone": [
+      { "id": 26, "text": "Imagine telling your friend about this feedback. How would you phrase it?" },
+      { "id": 27, "text": "Craft a cheerful review that captures the essence of the feedback." },
+      { "id": 28, "text": "In a light-hearted manner, convey the feedback in review format." },
+      { "id": 29, "text": "Share the feedback as if you're excitedly chatting with a close friend." },
+      { "id": 30, "text": "Write a warm, friendly review based on the feedback given." }
+    ],
+    "Conversational Tone": [
+      { "id": 31, "text": "If you were having a casual conversation about the feedback, how would it sound?" },
+      { "id": 32, "text": "Turn the feedback into a chat you'd have over coffee." },
+      { "id": 33, "text": "Express the feedback in a way you'd talk to a fellow traveler." },
+      { "id": 34, "text": "Write a review as if you're recalling the feedback in a casual conversation." },
+      { "id": 35, "text": "In a chatty style, relay the feedback for our readers." }
+    ],
+    "Constructive/Critical Tone": [
+      { "id": 36, "text": "Outline a review focusing on areas of improvement from the feedback." },
+      { "id": 37, "text": "Highlight potential areas of growth based on the feedback." },
+      { "id": 38, "text": "Constructively phrase the feedback in review format." },
+      { "id": 39, "text": "Translate the feedback into actionable advice for the establishment." },
+      { "id": 40, "text": "In a constructive manner, articulate the guest's feedback." }
+    ],
+    "Enthusiastic Tone": [
+      { "id": 41, "text": "Express the feedback with lots of energy and enthusiasm!" },
+      { "id": 42, "text": "With a pep in your step, turn the feedback into a lively review." },
+      { "id": 43, "text": "Imagine you're super excited about this feedback. Craft the review accordingly." },
+      { "id": 44, "text": "Translate the feedback into a bubbly and vivacious review." },
+      { "id": 45, "text": "Share the feedback as if it's the most exciting news you've heard all day." }
+    ]
+  }
+  
