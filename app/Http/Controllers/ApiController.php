@@ -90,7 +90,7 @@ Start with: "$reviewStart"
 
 Feel free to include personal expressions, small anecdotes or feelings that match the clues, but stay realistic and consistent.
 
-Structure your review in a natural, slightly varied way — you don’t need to follow the question order exactly. Focus more on what felt most important to you, and don’t be afraid to emphasise one part over the others if it stood out.
+Structure your review in a natural, slightly varied way — do NOT follow(this is very important!!) the question order exactly. Focus more on what felt most important to you, and don’t be afraid to emphasise one part over the others if it stood out.
 
 Use a natural, flowing tone — not robotic. Avoid listing answers mechanically. Blend the information into a coherent, engaging, and personal review. Try to vary your sentence structures and use natural synonyms where appropriate.
 
@@ -473,29 +473,17 @@ public function getCombinedTone(): string
     }
 
 
-    function generateHashtagPhrase() {
-        // A large list of base phrases
+    function generateHashtagPhrase(): string
+    {
         $basePhrases = [
-            "Amazing", "Fantastic", "Wonderful", "Incredible", "Perfect",
-            "GreatVibes", "SuperbChoice", "UnforgettableDay", "HappyTimes",
-            "DreamComeTrue", "HighlyRecommended", "BestExperience",
-            "LoveThisPlace", "Thrilled", "PeaceAndJoy", "MemorableMoment",
-            "OutstandingService", "HighlySatisfied", "Flawless", "OverTheMoon",
-            "TopNotch", "LifeChanging", "SoGrateful", "GreatChoice",
-            "BestDayEver", "LoveIt", "SuperSatisfied", "ExceedingExpectations"
+            "cozy", "superb", "greatplace", "greataccommodation", "cleanstay",
+            "perfectspot", "comfybed", "homelyvibes", "peacefularea", "lovelyhost",
+            "easycheckin", "stylishspace", "beautifulview", "quietlocation",
+            "greatvalue", "sparklingclean", "topservice", "welcomingvibe",
+            "idealstay", "feelslikehome"
         ];
-    
-        // Randomly combine 2 or 3 phrases
-        $numPhrases = rand(2, 3); // Randomly choose 2 or 3
-        $combinedPhrases = [];
-    
-        for ($i = 0; $i < $numPhrases; $i++) {
-            $randomIndex = rand(0, count($basePhrases) - 1);
-            $combinedPhrases[] = $basePhrases[$randomIndex];
-        }
-    
-        // Join phrases without spaces for a hashtag
-        return '#' . implode('', $combinedPhrases);
+
+        return '#' . implode('', collect($basePhrases)->random(rand(2, 3))->all());
     }
 
 
