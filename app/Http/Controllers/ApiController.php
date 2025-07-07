@@ -84,7 +84,7 @@ public function generateReview(Request $request)
 
     // User Prompt (updated for new format)
     $mainPrompt = <<<PROMPT
-You're a guest at $hotelName (always use this as the hotel name!!) writing a short review of your recent stay. Use the clues below and this accommodation fact sheet. You can reference the accommodation’s features naturally, even if not mentioned directly. You MUST write in the first person (I/we).
+You're a guest at $hotelName (always use this as the hotel name!!) writing a short review of your recent stay. Use the clues below and this accommodation fact sheet(The fact sheet is in JSON format. Read it and use some of it in your review!). You can reference the accommodation’s features naturally, even if not mentioned directly. You MUST write in the first person (I/we).
 
 Start with: "$reviewStart"
 
@@ -483,7 +483,7 @@ public function getCombinedTone(): string
             "idealstay", "feelslikehome"
         ];
 
-        return '#' . implode('', collect($basePhrases)->random(rand(2, 3))->all());
+        return '#' . collect($basePhrases)->random();
     }
 
 
