@@ -144,7 +144,7 @@ PROMPT;
     $assistantResponse = $response['choices'][0]['message']['content'] ?? 'Error generating response.';
     $reviewText = $assistantResponse;
     
-    dd("PROMPT: " . json_encode($payload, JSON_PRETTY_PRINT) . "\nRESPONSE: " . $reviewText);
+    //dd("PROMPT: " . json_encode($payload, JSON_PRETTY_PRINT) . "\nRESPONSE: " . $reviewText);
 
     // Save review
     $nfcId = session()->get('nfc_id');
